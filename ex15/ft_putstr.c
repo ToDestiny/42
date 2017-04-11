@@ -6,13 +6,13 @@
 /*   By: acolas <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/10 17:11:46 by acolas            #+#    #+#             */
-/*   Updated: 2017/04/10 19:07:53 by acolas           ###   ########.fr       */
+/*   Updated: 2017/04/11 13:37:11 by acolas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void		ft_putchar(char c);
+void	ft_putchar(char c);
 
-void		ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
 	int		i;
 
