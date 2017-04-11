@@ -6,7 +6,7 @@
 /*   By: acolas <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/11 14:09:58 by acolas            #+#    #+#             */
-/*   Updated: 2017/04/11 14:25:18 by acolas           ###   ########.fr       */
+/*   Updated: 2017/04/11 15:34:24 by acolas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int		main(int argc, char **argv)
 		while (argv[i])
 		{
 			j = 0;
-			while (argv[ii][j] != '\0')
+			while (argv[i][j] != '\0')
 			{
 				ft_putchar(argv[i][j]);
 				j++;
