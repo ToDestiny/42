@@ -6,7 +6,7 @@
 /*   By: acolas <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/11 14:09:58 by acolas            #+#    #+#             */
-/*   Updated: 2017/04/11 15:34:24 by acolas           ###   ########.fr       */
+/*   Updated: 2017/04/11 17:02:49 by acolas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,10 @@ int		main(int argc, char **argv)
 	int		i;
 	int		j;
 
-	i = 0;
+	i = 1;
 	if (argc > 1)
 	{
-		while (argv[i])
+		while (i < argc)
 		{
 			j = 0;
 			while (argv[i][j] != '\0')
